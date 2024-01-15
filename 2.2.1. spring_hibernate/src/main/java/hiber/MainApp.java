@@ -33,7 +33,6 @@ public class MainApp {
         }
         User userTest = userService.getUserByModel("model1", 1);
         System.out.println(userTest.getId());
-
         context.close();
     }
 }
